@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dcc912f-08c6-4d9c-85a0-06f54d70ae2c" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/fontello.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/fontello.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hongli.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/picture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/work1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/work2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/work3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/work4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/work5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/work6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/fontello.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/print.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/zoom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/fontello.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/fontello.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/zoom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/css/fontello.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/css/print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/css/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/mysumes.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/picture.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/丹丹.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/mysume.html" afterPath="$PROJECT_DIR$/templates/mysume.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/mysumes.html" afterPath="$PROJECT_DIR$/templates/mysumes.html" />
     </list>
     <ignored path="html5up-future-imperfect.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5494506">
+            <state vertical-scroll-proportion="49.714287">
               <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
@@ -70,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysumes.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mysumes.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/mysumes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9655173">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.2731006">
+              <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -162,8 +135,8 @@
         <option value="$PROJECT_DIR$/templates/mysume.html" />
         <option value="$PROJECT_DIR$/assets/src/css/fontello.scss" />
         <option value="$PROJECT_DIR$/assets/css/fontello.min.css" />
-        <option value="$PROJECT_DIR$/templates/mysumes.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/templates/mysumes.html" />
       </list>
     </option>
   </component>
@@ -523,18 +496,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mysumes.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9655173">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state vertical-scroll-proportion="49.714287">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/mysumes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5494506">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.2731006">
+          <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
           <folding />
         </state>
       </provider>
