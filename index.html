@@ -13,12 +13,84 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+		<script type="text/javascript">
+			function MyAutoRun()
+			{
+				$("#J-protocol").addClass("show");
+				$("#J-mask").css("display", "block");
+			}
+			window.onload=MyAutoRun; //仅需要加这一句
+			$(function(){
+
+				var clickName =$("#clickName");
+				clickName.click(function(){
+					var whoName = $("#whoName").val().trim();
+					if(whoName=="宇宙无敌仙女丹"){
+						$("#J-protocol").removeClass("show");
+						$("#J-mask").css("display", "none");
+					}
+				})
+			})
+		</script>
 	</head>
+
+
 	<body>
 
+	<style>
+		.popup_box {
+			display:none;
+			position:fixed;
+			z-index:9999;
+			left:50%;
+			top:50%;
+			width:100%;
+			height:100%;
+			padding:19px;
+			margin-left:-50%;
+			background-color:#fff
+		}
+		.popup_protocol_box {
+			line-height:1.5;
+			overflow-y:auto
+		}
+		.popup_layer {
+			position:fixed;
+			display:none;
+			z-index:999;
+			top:0;
+			left:0;
+			right:0;
+			bottom:0;
+			opacity:.5;
+			background:black;
+			filter:alpha(opacity=50)
+		}
+		.show {
+			display:block
+		}
+	</style>
+	<div id="J-mask" class="popup_layer">
+	</div>
+	<div id="J-protocol" class="popup_box popup_protocol_box" style="margin-top: -231px;">
+		<div class="header">
+			<h2>
+			我是谁？
+			</h2>
+			<input type="text"  id="whoName" name="name"
+				   value=" "/>
+				<button type="button" id="clickName">确定</button>
+		</div>
+
+
+	</div>
 		<!-- Wrapper -->
 			<div id="wrapper">
-
 				<!-- Header -->
 					<header id="header">
 						<h1><a href="#">丹丹</a></h1>
@@ -108,11 +180,6 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
